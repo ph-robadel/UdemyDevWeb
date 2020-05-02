@@ -1,0 +1,43 @@
+body {
+    background: #afcfff;
+}
+
+div#principal {
+    background: white;
+    width: 800px;
+    margin: 0px auto;
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    border: 1px solid red;
+    width: 150px;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+p#p1{
+    position: static;
+}
+
+p#p2{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+p#p3{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    margin: 0px
+}
+
+img#whats {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    margin: 0px;
+    width: 80px;
+}

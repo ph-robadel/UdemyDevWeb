@@ -1,0 +1,38 @@
+/* Box Model - Modelo de caixa */
+
+body {
+    background: black;
+}
+
+div#box1 {
+    background-color: gray;
+    color: white;
+    border: 1px solid red;
+    padding: 10px 40px;
+    width: 100px;
+    margin: 20px 0px 20px 10px;
+}
+
+/* MARGIN COLLAPSE */
+
+div#box2 {
+    background-color: gray;
+    color: white;
+    border: 1px solid red;
+    padding: 30px;
+    width: 150px;
+    margin: 20px 0px 20px 10px;
+}
+
+div#noticia {
+    background-color: gray;
+    color: white;
+    border: 1px solid red;
+    margin: 40px 0px 0px 10px;
+    width:300px;
+}
+
+/* h1, h2, h3 ... Possuem MARGIN por padrão */
+h2 {
+    margin: 0px;
+}

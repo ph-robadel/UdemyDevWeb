@@ -1,0 +1,63 @@
+div#principal {
+    background: black;
+    padding: 10px;
+}
+div#b1 {
+    background: blue;
+    border: 3px solid white;
+    /* width: 254px; */
+    height: 150px;
+    /* float: left; */
+    /* clear: both; */
+}
+
+div#b2 {
+    background: yellow;
+    border: 3px solid white;
+    width: 150px;
+    height: 220px;
+    float: left;
+    /* clear: both; */
+}
+
+div#b3 {
+    background: green;
+     border: 3px solid white;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+
+div#b4 {
+    background: gray;
+     border: 3px solid white;
+    width: 150px;
+    height: 100px;
+    float: right;
+    clear: both;
+}
+
+div#b5 {
+    background: deeppink;
+     border: 3px solid white;
+    width: 100px;
+    height: 200px;
+    float: left;
+    clear: both;
+}
+
+div#b6 {
+    background: blueviolet;
+     border: 3px solid white;
+    width: 130px;
+    height: 130px;
+    float: right;
+    clear: left;
+}
+
+div#b7 {
+    background: cyan;
+     border: 3px solid white;
+    height: 100px;
+    clear: both;
+}
