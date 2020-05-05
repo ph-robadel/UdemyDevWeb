@@ -1,0 +1,127 @@
+/* Limpando formatações padrões */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #efefef;
+}
+
+/* #=# Formatando as áreas #=# */
+
+/* Cabeçalho */
+div#area-cabecalho {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+div#area-logo, div#area-menu {
+    padding: 10px;
+}
+
+span.data-postagem {
+    font-size: 0.8em;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Principal */
+div#area-principal {
+    width: 920px;
+    margin: 15px auto 0px auto;
+}
+
+div#area-postagens {
+    width:660px;
+    float:left;
+}
+
+div.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+div.postagem img {
+    width: 620px;
+}
+
+div#area-lateral {
+    width:240px;
+    float:right;
+}
+
+div#area-rodape {
+    background: #B9B9B9;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
+/* #=# Formatação Principal #=#  */
+a {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2.titulo-postagem {
+    color: #f7b600;
+}
+
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.conteudo-lateral h3 {
+    padding: 5px;
+    background: #CCC;
+    color: #565656;
+}
+
+.conteudo-lateral p , .conteudo-lateral a{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.conteudo-lateral hr {
+    margin: 3px 0px;
+}
+
+/* #=# Formatando Cabeçalho #=#  */
+h1#titulo {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+span#blog {
+    color: white;
+}
+
+#area-menu a{
+    padding: 8px 12px;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+
+#area-menu a:link, #area-menu a:visited {
+    color: white;
+}
+
+#area-menu a:hover {
+    color: #f7b600;
+    background: white;
+    text-decoration: none;
+}
