@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(../imagens/fundo.png) repeat-x;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#principal {
+    width: 720px;
+    margin: 0px auto;
+}
+
+/* INICIO TOPO */
+#topo {
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+    height: 175px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -9000px;
+}
+
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float:left;
+}
+
+#topo li{
+    list-style-type: none;
+    float:left;
+}
+
+#topo a{
+    background: url(../imagens/divisor.png) no-repeat center left;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+#topo .primeiro a{
+    background-image: none;
+}
+
+#topo a:hover{
+    color:#69001d;
+}
+
+body.home #topo a#home,
+body.brasil #topo a#brasil,
+body.internacional #topo a#internacional,
+body.economia #topo a#economia,
+body.saude #topo a#saude,
+body.ciencia #topo a#ciencia,
+body.fotos #topo a#fotos
+{
+    color: white;
+    background: #de003e;
+    cursor: default;
+}
+
+/* FIM TOPO */
