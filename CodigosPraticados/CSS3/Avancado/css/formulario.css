@@ -1,0 +1,37 @@
+body {
+    background: #EFEFEF;
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    background-color: #E5E5E5;
+    border: 2px #A0A0A0 solid;
+    padding: 1.5em;
+    width: 50%;
+    margin: 0px auto 35px auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 25%;
+    max-width: 275px;
+    min-width: 200px;
+}
+
+textarea {
+    width: 45%;
+    min-width: 230px;
+    height: 100px;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #dedede;
+}
+
+
+#navegacao_vertical{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacao_vertical a{
+    background: url(../imagens/menu.png) no-repeat left center;
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    
+    text-indent: 40px;
+    line-height: 40px;
+}
+
+#navegacao_vertical a:hover{
+    background-position: right center;
+    color: white;
+}
+
+
+#lista_atividades {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#lista_atividades>li {
+    background: url(../imagens/seta.png) no-repeat left center;
+    /* border: 1px blue solid;*/
+    padding: 1px 20px;
+}
+

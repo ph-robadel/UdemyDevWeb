@@ -1,0 +1,90 @@
+body{
+    background: #C9E4E4;
+}
+
+/* ### BEGIN container ###*/
+#container{
+    background: white;
+    width: 90%;
+    min-width: 700px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+/*END container*/
+
+
+/* ### BEGIN marca ###*/
+#marca{
+    background: #9E9E9E url(../imagens/cabecalho.jpg) no-repeat center center;
+    line-height: 250px;
+    text-align: center;
+    font-size: 2em;
+}
+/*END marca*/
+
+
+/* ### BEGIN conteudo ###*/
+#conteudo{
+    background: cyan;
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    background: lightcyan;
+    width: 64%;
+    float: left;
+}
+
+img.img-noticias{
+    width: 95%;
+    padding: 10px;
+}
+
+#conteudo-secundario{
+    background: darkcyan;
+    width: 34%;
+    float: right;
+    padding: 2px;
+}
+
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding: 0px 7px;
+}
+
+/*END conteudo*/
+
+
+/* ### BEGIN navegacao ###*/
+#navegacao{
+    background: red;
+    width: 23%;
+    padding: 20px 0px;
+    float: left;
+}
+
+#navegacao>ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+
+#navegacao>ul li{
+    padding: 4px 0px;
+}
+
+#navegacao>ul a{
+    text-decoration: none;
+    color: black;
+}
+/*END navegacao */
+
+
+/* ### BEGIN rodape ###*/
+#rodape{
+    background: blue;
+    height: 40px;
+    clear: both;
+}
+/*END rodape*/

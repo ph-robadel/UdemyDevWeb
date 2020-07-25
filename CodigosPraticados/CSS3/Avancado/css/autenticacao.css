@@ -1,0 +1,48 @@
+body {
+    background: #643d87 url("../imagens/fundo.jpg") no-repeat top center;
+}
+
+#principal {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 400px;
+    height: 300px;
+    margin: 120px auto 0px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#principal>img {
+    height: 120px;
+    width: 120px;
+    margin: -60px 0px 30px 0px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-indent: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+input[type="text"]{
+    background-color: white;
+    background-image: url("../imagens/icone-usuario.png");
+}
+
+input[type="password"]{
+    background-color: white;
+    background-image:url("../imagens/icone-cadeado.png");
+}
+
+input[type="submit"]{
+    background-color: #f79300;
+    color: #fff;
+    border: 2px solid #db7b00;
+    text-indent: 0px;
+
+    background: linear-gradient(to top, rgb(255, 183, 49), darkorange);
+}

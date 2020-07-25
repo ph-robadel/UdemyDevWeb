@@ -1,0 +1,83 @@
+body{
+    background: #D9E4E4;
+}
+
+/* ### BEGIN container ###*/
+#container{
+    background: white;
+    width: 720px;
+    margin: 0px auto;
+}
+/*END container*/
+
+
+/* ### BEGIN marca ###*/
+#marca{
+    background: #9E9E9E;
+    line-height: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+/*END marca*/
+
+
+/* ### BEGIN conteudo ###*/
+#conteudo{
+    background: cyan;
+    width: 520px;
+    float: right;
+}
+
+#conteudo-principal{
+    background: lightcyan;
+    width: 320px;
+    float: left;
+}
+
+#conteudo-secundario{
+    background: darkcyan;
+    width: 180px;
+    float: right;
+    padding: 2px;
+}
+
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding: 0px 7px;
+}
+
+/*END conteudo*/
+
+
+/* ### BEGIN navegacao ###*/
+#navegacao{
+    background: red;
+    width: 180px;
+    padding: 20px 0px;
+    float: left;
+}
+
+#navegacao>ul{
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+
+#navegacao>ul li{
+    padding: 4px 0px;
+}
+
+#navegacao>ul a{
+    text-decoration: none;
+    color: black;
+}
+/*END navegacao */
+
+
+/* ### BEGIN rodape ###*/
+#rodape{
+    background: blue;
+    height: 40px;
+    clear: both;
+}
+/*END rodape*/

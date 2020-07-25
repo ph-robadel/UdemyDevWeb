@@ -1,0 +1,36 @@
+body {
+    background: #EFEFEF;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+tr {
+    padding: 0px;
+    margin: 0px;
+}
+
+th {
+    background: #EFEFEF;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;  
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.alternado td {
+    background: #E0E0E0;
+}
+
+tr:hover{
+    background: gray;
+    color: white;
+}

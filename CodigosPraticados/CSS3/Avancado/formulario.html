@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/formulario.css">
+    </head>
+
+    <body>
+        <h2>Formulários</h2>
+        <form action="GET">
+            <fieldset>
+                <legend>Detalhes do contato</legend>
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade">
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários</legend>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+                <label id="sim">
+                    Sim <input type="radio" name="lembrar" id="sim">
+                    <br>
+                    Não <input type="radio" name="lembrar" id="nao">
+                </label>
+            </fieldset>
+        </form>
+    </body>
+</html>

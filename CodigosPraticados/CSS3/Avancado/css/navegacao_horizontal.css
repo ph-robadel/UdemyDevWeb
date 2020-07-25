@@ -1,0 +1,31 @@
+p{
+    color: blue;
+}
+
+ul{
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    margin: 0px;
+    padding: 0px;
+    width: 720px;
+    list-style-type: none;
+    float: left;
+}
+
+ul>li{
+    background: url(../imagens/divisor.png) repeat-y right;
+    float: left;
+}
+
+ul a{
+    border: 1px black solid;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0px 2em;
+    line-height: 2em;
+}
+
+ul a:hover{
+    background-color:#44cade;
+    color: #085662;
+}

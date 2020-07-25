@@ -1,0 +1,33 @@
+/*
+ As propriedades que são definidas nos elementos são herdadas para os seus elementos descendentes.
+ Mas há exceções como: borda e background.  
+
+ Quando diversos seletores diferentes definem uma mesma propriedade CSS com valores diferentes,
+ o que é realmente definido é do seletor mais específico.
+ Quando os seletores são iguais, o que estiver por último será definido.
+*/
+
+body {
+    background-color: lightgray;
+    color: blue;
+}
+
+div {
+    color: red; /*!important */
+}
+
+div {
+    color: green;
+}
+
+div>p {
+    color: orange;
+}
+
+.paragrafo{
+    color: blueviolet;
+}
+
+#p3{
+    color: deeppink;
+}

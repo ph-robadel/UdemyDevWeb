@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#border-degrade {
+    background-image: linear-gradient(to bottom right, #3F3FFF, #00C0FF);
+    border-radius: 15px;
+    padding: 7px;
+    width: 400px;
+    margin: 30px auto;
+
+}
+
+.caixa {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 15px solid linear-gradient(darkgray, lightgray);
+    border-radius: 12px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #45454F;
+}

@@ -1,0 +1,34 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    width: 720px;
+    list-style-type: none;
+    float: left;
+}
+
+ul>li{
+    background: url(../imagens/aba-direita.png) no-repeat top right;
+    float: left;
+}
+
+li>a{
+    background: url(../imagens/aba-esquerda.png) no-repeat top left;
+    float: left;
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    color: white;
+}
+
+li>a:hover{
+    color: #894a1f;
+}
+
+#atual{
+    background: url(../imagens/aba-direita-atual.png) no-repeat right top;
+}
+
+#atual>a{
+    background: url(../imagens/aba-esquerda-atual.png) no-repeat left top;
+}
