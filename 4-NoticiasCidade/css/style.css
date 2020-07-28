@@ -15,14 +15,20 @@ ul {
 }
 
 #principal {
-    width: 720px;
+    width: 750px;
     margin: 0px auto;
 }
+
+div.clear {
+    clear: both;
+}
+
+
 
 /* INICIO TOPO */
 #topo {
     background: url(../imagens/detalhe-topo.png) no-repeat top right;
-    height: 175px;
+    height: 230px;
 }
 
 .logo {
@@ -71,5 +77,112 @@ body.fotos #topo a#fotos
     background: #de003e;
     cursor: default;
 }
-
 /* FIM TOPO */
+
+
+
+/* INICIO CONTEUDO */
+#conteudo{
+    background: #e0e0ef;
+}
+
+#lateral {
+    background: darkred;
+    width: 180px;
+    float: left;
+    margin: 0px 0px 20px -750px; 
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    text-indent: 20px;
+}
+
+#lateral input[type=text]{
+    width: 140px;
+    font-size: 0.7em;
+    margin: 7px 0px;
+}
+
+#lateral input[type=submit]{
+    width: 80px;
+    color: white;
+    background-color: #B10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    text-align: center;
+}
+
+#primario {
+    background: blue;
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-colunas #primario {
+    background: blue;
+    width: 750px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+#secundario {
+    background: green;
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 15px;
+}
+/* FIM CONTEUDO */
+
+
+
+/* INICIO CAIXA */
+.caixa {
+    margin: 10px 0px;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+.caixa h2{
+    padding: 5px;
+    background: #294c71;
+    color: white;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+/* FIM CAIXA */
+
+
+
+/* INICIO RODAPE */
+#rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape-conteudo{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+/* FIM RODAPE */
