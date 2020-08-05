@@ -23,6 +23,15 @@ div.clear {
     clear: both;
 }
 
+a {
+    color: #b10333;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e50040;
+}
 
 
 /* INICIO TOPO */
@@ -83,11 +92,10 @@ body.fotos #topo a#fotos
 
 /* INICIO CONTEUDO */
 #conteudo{
-    background: #e0e0ef;
+    background: #e5e5df;
 }
 
 #lateral {
-    background: darkred;
     width: 180px;
     float: left;
     margin: 0px 0px 20px -750px; 
@@ -125,7 +133,6 @@ body.fotos #topo a#fotos
 }
 
 #primario {
-    background: blue;
     width: 270px;
     float: left;
     margin: 0px 0px 20px 195px;
@@ -136,14 +143,12 @@ body.fotos #topo a#fotos
 }
 
 #uma-colunas #primario {
-    background: blue;
     width: 750px;
     float: left;
     margin: 0px 0px 20px 0px;
 }
 
 #secundario {
-    background: green;
     width: 270px;
     float: left;
     margin: 0px 0px 20px 15px;
@@ -159,16 +164,59 @@ body.fotos #topo a#fotos
     background: #f3f3f3 url(../imagens/fundo-caixa.png);
 }
 
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #efefef;
+}
+
 .caixa h2{
     padding: 5px;
     background: #294c71;
     color: white;
 }
 
-.caixa-conteudo {
-    background: white;
-    padding: 5px;
-    margin-top: 5px;
+.caixa h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #CCC;
+    height: 62px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a h3{
+    font-size: 1em;
+    padding: 0px;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.8em;
+    color: black;
+}
+
+#lista-noticias li:hover {
+    background: #ddd;
+    cursor: pointer;
 }
 /* FIM CAIXA */
 
