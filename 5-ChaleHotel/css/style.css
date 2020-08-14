@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: white url(../imagens/bg.png) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#pagina{
+    background: #e4e4cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+
+
+/* INICIO TOPO */
+#topo{
+    position: relative;
+    background: #DBCB97;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#topo-logo{
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    position: absolute;
+    left: 0px; 
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.logo a{
+    background: url(../imagens/logo.png) no-repeat;
+    position: absolute;
+    width: 151px;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    height: 66px;
+    text-indent: -10000px;
+}
+
+#topo-menu{
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    width: 450px;
+    height: 100%;
+    z-index: 1;
+}
+
+#conteudo-menu{
+    margin: 15px 15px 0px 90px;
+    height: 100%;
+}
+
+#menu-locais{
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    font-size: 0.7em;
+    padding: 5px 2px;
+    color: #8b8448;
+}
+
+
+#menu-locais p{
+    float: left;
+    line-height: 2.8em;
+}
+
+#menu-locais p a{
+    color: #8b8448;
+}
+
+#menu-locais a#reservar{
+    background-color: #a29750;
+    color: #fff5b0;
+    padding: 10px;
+    text-transform: uppercase;
+    float: right;
+}
+
+#menu{
+    margin-top: 15px;
+    height: 68%;
+}
+
+#menu img{
+    float: right;
+}
+
+#menu-navegacao{
+    float: left;
+}
+
+#menu-navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    line-height: 30px;
+    color: #6e672c;
+    padding: 5px;
+}
+
+#menu-navegacao a:hover{
+    background-color: #fdf6be;
+}
+
+/* FIM TOPO */
+
+
