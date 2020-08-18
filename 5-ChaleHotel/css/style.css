@@ -18,9 +18,9 @@ ul{
 }
 
 #pagina{
-    background: #e4e4cc;
+    background: #e4e4cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
-    min-width: 740px;
+    min-width: 760px;
     max-width: 1180px;
 }
 
@@ -118,7 +118,87 @@ ul{
 #menu-navegacao a:hover{
     background-color: #fdf6be;
 }
-
 /* FIM TOPO */
 
 
+.conteudo {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+/* INICIO AREA-PRINCIPAL */
+#area-principal{
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    width: 50%;
+    float: left;
+    padding: 15px 0px;
+}
+
+#area-principal h2{
+    color: #7d7640;
+    font-size: 1.2em;
+    padding: 5px 0px;
+}
+
+#area-principal p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+/* FIM AREA-PRINCIPAL */
+
+
+
+/* INICIO AREA-LATERAL */
+#area-lateral{
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    width: 50%;
+    float: right;
+    padding: 20px 0px;
+}
+
+/* INICIO opções */
+.opcoes{
+    display: block;
+    padding: 5px;
+    margin: 5px 0px;
+    height: 6em;
+}
+
+.opcoes:hover{
+    background: rgba(250, 240, 220, 0.4);
+    cursor: pointer;
+}
+
+.opcoes img{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.opcoes h2{
+    background: url(../imagens/ornamento.png) center right no-repeat;
+    color: #7d7640;
+    font-size: 1.1em;
+    padding-bottom: 4px;
+}
+
+.opcoes p{
+    font-size: 0.87em;
+    color: #1A1A1A;
+}
+/* FIM opções */
+
+/* FIM AREA-LATERAL*/
+
+
+
+/* INICIO RODAPE */
+#rodape{
+    clear:both;
+    background: white url(../imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+    padding: 16px;
+    text-align: center;
+}
+/* FIM RODAPE*/
